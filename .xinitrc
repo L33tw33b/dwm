@@ -58,7 +58,7 @@ xrandr --output Virtual1 --mode 1280x800 &
 #Loop for automatically starting dwm after editing config.def.h
 
 #Dwm statusbar
-/home/yee/dwm-bar/dwm_bar.sh &
+~/dwm-bar/dwm_bar.sh &
 
 #Compositor
 picom -f --no-vsync &
